@@ -1,0 +1,6 @@
+{
+  "name": "VCAST - BUI Beta Set Alumni Election Voting System",
+  "description": "Production-ready Alumni Election Voting System for BUI Beta Set with PHP 8.2+ MVC architecture, MySQL 8+, PHPMailer, AJAX, Tailwind CSS, Chart.js, Admin Dashboard, and Hostinger Web Hosting deployment suite.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BUI Beta Set Alumni Election System (VCAST)</title>
+    <script>
+      // Fallback detector for Hostinger deployment when raw source is uploaded instead of built dist/
+      window.addEventListener('error', function(e) {
+        if (e.filename && (e.filename.includes('.tsx') || e.filename.includes('.ts'))) {
+          var root = document.getElementById('root');
+          if (root && !root.children.length) {
+            root.innerHTML = '<div style="font-family:system-ui,sans-serif;background:#0f172a;color:#fff;min-height:100vh;display:flex;align-items:center;justify-content:center;padding:2rem;"><div style="max-width:550px;background:rgba(255,255,255,0.05);border:1px solid rgba(255,255,255,0.15);padding:2.5rem;border-radius:1.5rem;text-align:center;"><h2 style="color:#38bdf8;margin-top:0;">Hostinger Deployment Notice</h2><p style="color:#cbd5e1;font-size:0.95rem;line-height:1.6;">You uploaded raw TypeScript source files (<code>/src/main.tsx</code>) directly to Hostinger.</p><p style="color:#cbd5e1;font-size:0.95rem;line-height:1.6;">To fix this blank screen:</p><ol style="text-align:left;color:#93c5fd;font-size:0.875rem;line-height:1.8;"><li>Run <strong>npm run build</strong> and upload the contents of the <strong>dist/</strong> folder to <code>public_html/</code>.</li><li>OR use the included PHP MVC engine by uploading <strong>public/index.php</strong> to your root.</li></ol></div></div>';
+          }
+        }
+      });
+    </script>
+  </head>
+  <body class="bg-slate-950 text-white">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
+
